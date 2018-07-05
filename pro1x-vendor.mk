@@ -553,8 +553,6 @@ PRODUCT_PACKAGES += \
     libkeymasterdeviceutils \
     libkeymasterutils \
     liblbs_core \
-    liblearningmodule \
-    liblmutils-ns \
     libloc_api_v02 \
     libloc_core \
     libloc_socket \
@@ -565,8 +563,6 @@ PRODUCT_PACKAGES += \
     liblowi_wifihal \
     liblqe \
     libmctfengine_stub \
-    libmeters-ns \
-    libmeters \
     libminkdescriptor \
     libminksocket \
     libmmcamera_cac3 \

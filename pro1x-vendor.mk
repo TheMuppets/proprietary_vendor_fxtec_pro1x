@@ -989,8 +989,6 @@ PRODUCT_COPY_FILES += \
     vendor/fxtec/pro1x/proprietary/vendor/lib64/qcrild_librilutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qcrild_librilutils.so \
     vendor/fxtec/pro1x/proprietary/vendor/lib64/qtibus.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qtibus.so \
     vendor/fxtec/pro1x/proprietary/vendor/lib64/qtimutex.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qtimutex.so \
-    vendor/fxtec/pro1x/proprietary/vendor/lib64/rfsa/adsp/libsns_device_mode_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/rfsa/adsp/libsns_device_mode_skel.so \
-    vendor/fxtec/pro1x/proprietary/vendor/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so \
     vendor/fxtec/pro1x/proprietary/vendor/lib64/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ssc.so \
     vendor/fxtec/pro1x/proprietary/vendor/lib64/unnhal-acc-adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/unnhal-acc-adreno.so \
     vendor/fxtec/pro1x/proprietary/vendor/lib64/unnhal-acc-common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/unnhal-acc-common.so \
@@ -1127,3 +1125,7 @@ PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3-service-qti.xml \
     manifest_android.hardware.drm@1.3-service.widevine.xml \
     vendor.qti.gnss@4.0-service.xml
+
+PRODUCT_PACKAGES += \
+    libsns_device_mode_skel_libsns_device_mode_skel_symlink64 \
+    libsns_low_lat_stream_skel_libsns_low_lat_stream_skel_symlink64

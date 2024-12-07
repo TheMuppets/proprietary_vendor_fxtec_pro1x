@@ -4672,7 +4672,6 @@ cc_prebuilt_library_shared {
                 "libutils",
                 "libwfdcommonutils_proprietary",
                 "libwfdmmservice_proprietary",
-                "libbinder",
                 "libwfdutils_proprietary",
                 "libc++",
                 "libc",
@@ -13225,8 +13224,6 @@ cc_prebuilt_library_shared {
             srcs: [
                 "proprietary/vendor/lib64/libpn557_fw.so",
             ],
-            shared_libs: [
-            ],
         },
     },
     compile_multilib: "64",
@@ -18913,7 +18910,7 @@ cc_prebuilt_library_shared {
                 "libaudioclient",
                 "libaudiofoundation",
                 "audioclient-types-aidl-cpp",
-                "android.media.audio.common.types-V3-cpp",
+                "android.media.audio.common.types-V4-cpp",
                 "libwfdmmsrc_system",
                 "libwfdavenhancements",
                 "libhidlbase",
@@ -19343,6 +19340,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libinput_shim",
+                "libbinder_shim",
                 "libandroid_runtime",
                 "libui",
                 "libinput",

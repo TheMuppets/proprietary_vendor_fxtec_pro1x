@@ -4672,6 +4672,7 @@ cc_prebuilt_library_shared {
                 "libutils",
                 "libwfdcommonutils_proprietary",
                 "libwfdmmservice_proprietary",
+                "libbinder",
                 "libwfdutils_proprietary",
                 "libc++",
                 "libc",

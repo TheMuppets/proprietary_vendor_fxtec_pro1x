@@ -992,3 +992,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor_lib64_rfsa_adsp_libsns_device_mode_skel_so \
     vendor_lib64_rfsa_adsp_libsns_low_lat_stream_skel_so
+
+PRODUCT_BOOT_JARS += \
+    WfdCommon

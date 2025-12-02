@@ -481,6 +481,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.gnss@4.0-impl \
     vendor.qti.hardware.alarm@1.0-impl \
     vendor.qti.hardware.capabilityconfigstore@1.0-impl \
+    vendor.qti.hardware.fm@1.0-impl \
     vendor.qti.hardware.qseecom@1.0-impl \
     vendor.qti.hardware.qteeconnector@1.0-impl \
     vendor.qti.hardware.sensorscalibrate@1.0-impl \
@@ -688,7 +689,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.data.latency@1.0 \
     vendor.qti.hardware.data.lce@1.0 \
     vendor.qti.hardware.data.qmi@1.0 \
-    vendor.qti.hardware.fm@1.0 \
+    vendor.qti.hardware.fm@1.0_vendor \
     vendor.qti.hardware.iop@2.0 \
     vendor.qti.hardware.mwqemadapter@1.0 \
     vendor.qti.hardware.qccsyshal@1.0 \
@@ -758,6 +759,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.diaghal@1.0 \
     libmmparser_lite \
     com.qualcomm.qti.dpm.api@1.0 \
+    fm_helium \
     lib-imsvideocodec \
     lib-imsvt \
     lib-imsvtextutils \
@@ -767,8 +769,10 @@ PRODUCT_PACKAGES += \
     libdpmfdmgr \
     libdpmframework \
     libdpmtcm \
+    libfm-hci \
     libimscamera_jni \
     libimsmedia_jni \
+    vendor.qti.hardware.fm@1.0 \
     vendor.qti.imsrtpservice@3.0 \
     CACertService \
     CneApp \
